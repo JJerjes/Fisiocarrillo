@@ -31,7 +31,7 @@
 .subTitulo {
     width: 100%;
     text-align: center;
-    border: 1px solid red;
+    
 }
 
 @media (max-width:350px) {
