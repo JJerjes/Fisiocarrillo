@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    background-color: #333;
+    
+}
+
+.nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.subTitulo {
+    width: 100%;
+    text-align: center;
+    border: 1px solid red;
+}
+
+@media (max-width:350px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 5px;
+    }
+}
